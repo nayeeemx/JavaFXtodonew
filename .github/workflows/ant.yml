@@ -22,4 +22,4 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
     - name: Build with Ant
-      run: ant -noinput -buildfile build.xml
+      run: ant -Dplatforms.JDK_1.8.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/ -noinput -buildfile build.xml
