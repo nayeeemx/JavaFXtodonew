@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXtodonew.jnlp">
+  <information>
+    <title>JavaFXtodonew</title>
+    <vendor>nayeeemx</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXtodonew.jar" size="7728" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.11.jar" size="2036609" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxtodonew.JavaFXtodonew"  name="JavaFXtodonew" />
+  <update check="always"/>
+</jnlp>
